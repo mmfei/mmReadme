@@ -1,0 +1,1 @@
+alias mmReadme='function __myreadme() { if [[ -f "/data1/mmReadme/README.$1.md" ]]; then cat /data1/mmReadme/README.$1.md; else echo "/data1/mmReadme/README.$1.md is not exists"; fi; unset -f __myreadme;}; __myreadme';
